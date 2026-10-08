@@ -1,0 +1,29 @@
+# One native theme on purpose. Streamlit has no runtime theme API, so ALIGN draws its own
+# light/dark palette in app.py (buttons at the top of the page). Defining [theme.light] and
+# [theme.dark] here would add Streamlit's own switcher and the two would fight each other.
+[theme]
+base = "light"
+primaryColor = "#c4623f"
+backgroundColor = "#faf9f5"
+secondaryBackgroundColor = "#e8e6dc"
+textColor = "#141413"
+linkColor = "#3f6f9e"
+codeBackgroundColor = "#f1eee3"
+codeTextColor = "#141413"
+borderColor = "#b0aea5"
+baseRadius = "2px"
+showWidgetBorder = true
+font = "Lora:https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+headingFont = "Fraunces:https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..800&display=swap"
+codeFont = "Courier Prime:https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap"
+
+[theme.sidebar]
+backgroundColor = "#e8e6dc"
+secondaryBackgroundColor = "#faf9f5"
+
+[server]
+maxUploadSize = 10
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

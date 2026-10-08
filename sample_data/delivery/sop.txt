@@ -1,0 +1,6 @@
+ORDER SOP
+1. Receive order
+2. Verify payment
+3. Quality check
+4. Pack
+5. Ship
