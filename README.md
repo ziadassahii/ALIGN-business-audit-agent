@@ -2,7 +2,7 @@
 
 > **AI reads. Code checks. A person decides.**
 
-🚀 **[Live Demo](https://align-business-audit-agent-jjgk2t5kyk484y5uw5uckr.streamlit.app/?theme=light)**
+ **[Live Demo](https://align-business-audit-agent-jjgk2t5kyk484y5uw5uckr.streamlit.app/?theme=light)**
 
 Your company may be telling customers three different things. ALIGN reads your policy documents, pulls out every checkable rule, proves each quote exists in its source, finds the rules that disagree, links them to your real orders, and drafts exact text fixes that a human approves.
 ## What makes it trustworthy
